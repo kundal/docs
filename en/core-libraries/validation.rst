@@ -135,7 +135,7 @@ to add any additional providers your application needs::
     // Use a class name. Methods must be static.
     $validator->provider('custom', 'App\Model\Validation');
 
-Validation providers can be objects, or class names. If a class name is used the
+Validation providers can be objects, or class names. If a class name is used them
 methods must be static. To use a provider other than 'default', be sure to set
 the ``provider`` key in your rule::
 
